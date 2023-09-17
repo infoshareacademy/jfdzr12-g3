@@ -1,5 +1,52 @@
-img {
-    width: 10px;
-    height: 20px;
+.icon {
+    width: 50px;
+    height: 50px;
 
+}
+
+.slogan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+
+.photoSlogan {
+    width: 300px;
+    height: 300px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px 30px 30px;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+}
+
+.sectionIimage {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+
+}
+#section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    align-content: 50px;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    justify-content: center;
+    align-items: center;
 }
