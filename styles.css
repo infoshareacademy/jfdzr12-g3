@@ -26,8 +26,13 @@ header {
     background-color: red;
 }
 
+.header1and2, .header3and4 {
+    display: flex;
+}
+
 body {
     margin: 0px;
+    height: 100vh;
 }
 
 .header1 {
@@ -39,8 +44,8 @@ body {
     width: 300px;
     height: 300px;
     padding: 5px;
-
 }
+
 #section1 {
     display: flex;
     justify-content: space-between;
@@ -53,11 +58,14 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+
 .price {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: lightgray;
-    width: 150px;
+    width: 200px;
     border-radius: 10px;
     text-align: center;
 }
@@ -66,10 +74,9 @@ body {
     display: flex;
     justify-content: center;
     background-color: grey;
-    width: 170px;
+    width: 120%;
     border-radius: 10px;
     padding: 10px;
-    transform: translate(-10%, 2%);
     font-size: 20px;
 
 }
